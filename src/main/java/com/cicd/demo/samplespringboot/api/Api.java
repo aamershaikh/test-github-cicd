@@ -11,7 +11,7 @@ public class Api {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "Hello!!";
+        return "Hello World - 2!!";
     }
 
 }
