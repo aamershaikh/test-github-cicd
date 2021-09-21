@@ -11,7 +11,7 @@ public class Api {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "Hello World - 2!! I am deployed on Azure";
+        return "Hello World!! I am deployed on AWS";
     }
 
 }
