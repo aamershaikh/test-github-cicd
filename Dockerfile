@@ -5,5 +5,5 @@ RUN mvn -f /home/app/pom.xml clean package
 
 FROM openjdk:8
 COPY --from=build /home/app/target/*.jar /usr/local/lib/app.jar
-EXPOSE 8080
+EXPOSE 5050
 ENTRYPOINT ["java", "-jar", "/usr/local/lib/app.jar"]
